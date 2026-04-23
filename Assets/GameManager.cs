@@ -25,12 +25,12 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        counter2+= Time.deltaTime;
+        /*counter2+= Time.deltaTime;
         if (counter2 >= 0.5f)
         {
             SpawnRandomResident();
             counter2=0;
-        }
+        }*/
 
         taxText.text= "Tax Collected: " + totalCurrency;
         populationCount.text = "Population Count: " + populationCounter;
